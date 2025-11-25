@@ -17,28 +17,34 @@
             color: #333;
         }
         
-        header {
-            background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%);
-            color: white;
-            padding: 3rem 2rem 4rem;
-            text-align: center;
+        .logo-bar {
+            background: white;
+            padding: 1rem 2rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
         }
         
         .logo {
-            max-width: 400px;
+            max-width: 200px;
             width: 100%;
             height: auto;
-            margin-bottom: 2rem;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+            text-align: center;
         }
         
         header h1 {
-            font-size: 3rem;
-            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+            margin-bottom: 0.8rem;
             font-weight: 700;
         }
         
         header .tagline {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             font-weight: 300;
             opacity: 0.95;
             max-width: 800px;
@@ -48,55 +54,55 @@
         .container {
             max-width: 900px;
             margin: 0 auto;
-            padding: 4rem 2rem;
+            padding: 2.5rem 2rem;
         }
         
         section {
-            margin-bottom: 4rem;
+            margin-bottom: 2.5rem;
         }
         
         h2 {
             color: #2c5282;
-            margin-bottom: 1.5rem;
-            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            font-size: 2rem;
             font-weight: 600;
         }
         
         h3 {
             color: #2c5282;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
             font-weight: 600;
         }
         
         p {
-            margin-bottom: 1.2rem;
-            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
             color: #4a5568;
         }
         
         ul {
             margin-left: 1.5rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
         
         li {
-            margin-bottom: 0.7rem;
-            font-size: 1.05rem;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
             color: #4a5568;
-            line-height: 1.6;
+            line-height: 1.5;
         }
         
         .services-grid {
             display: grid;
-            gap: 2rem;
-            margin-top: 2rem;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
         }
         
         .service-category {
             background: #f7fafc;
-            padding: 2rem;
+            padding: 1.5rem;
             border-radius: 8px;
             border-left: 4px solid #2c5282;
         }
@@ -104,21 +110,21 @@
         .cta-section {
             background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%);
             color: white;
-            padding: 3rem;
+            padding: 2rem;
             border-radius: 12px;
             text-align: center;
         }
         
         .cta-section h2 {
             color: white;
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
         }
         
         .cta-section p {
             color: white;
             opacity: 0.95;
-            margin-bottom: 2rem;
-            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
         }
         
         .cta-button {
@@ -142,8 +148,8 @@
             background: #1a202c;
             color: white;
             text-align: center;
-            padding: 2.5rem;
-            margin-top: 4rem;
+            padding: 1.5rem;
+            margin-top: 2.5rem;
         }
         
         footer p {
@@ -151,12 +157,12 @@
         }
         
         @media (max-width: 768px) {
-            header h1 {
-                font-size: 2rem;
+            .logo {
+                max-width: 160px;
             }
             
-            .logo {
-                max-width: 280px;
+            header h1 {
+                font-size: 2rem;
             }
             
             header .tagline {
@@ -174,19 +180,22 @@
     </style>
 </head>
 <body>
-    <header>
+    <div class="logo-bar">
         <img src="latitude-logo.png" alt="Latitude Communications" class="logo">
+    </div>
+    
+    <header>
         <h1>Welcome!</h1>
     </header>
     
     <div class="container">
         <section>
-            <p style="font-size: 1.2rem; line-height: 1.8;">Latitude Communications delivers strategic communications services and expert counsel to help organizations navigate opportunities, manage challenges and achieve meaningful growth. We partner with you to tell your story effectively and connect authentically with the audiences that matter most.</p>
+            <p style="font-size: 1.1rem; line-height: 1.7;">Latitude Communications delivers strategic communications services and expert counsel to help organizations navigate opportunities, manage challenges and achieve meaningful growth. We partner with you to tell your story effectively and connect authentically with the audiences that matter most.</p>
         </section>
         
         <section>
             <h2>Our Approach</h2>
-            <p>We help clients build stronger connections with their stakeholders through tailored solutions and proactive outreach. Whether you're launching a new initiative or navigating complex issues, we provide the expertise and support you need to succeed.</p>
+            <p>We help clients build stronger connections with stakeholders through tailored solutions and proactive outreach. Whether you're launching a new initiative or navigating complex issues, we provide the expertise and support you need to succeed.</p>
         </section>
         
         <section>
